@@ -1,5 +1,5 @@
  
-@media screen and (max-width:600px) {
+@media screen and (max-width:600) {
     
     .photo{
         width: 100%;
@@ -8,7 +8,7 @@ overflow: hidden;
     }
 } 
  
-@media screen and (max-width:768px) {
+@media screen and (max-width:768) {
     .photo{
         overflow: hidden
         ;
@@ -17,7 +17,7 @@ overflow: hidden;
     }
     
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width:992) {
     .photo{
         overflow: hidden
         ;
@@ -26,7 +26,7 @@ overflow: hidden;
     }
     
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1200) {
     
     .photo{
         overflow: hidden;
