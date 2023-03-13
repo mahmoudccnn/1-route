@@ -34,6 +34,7 @@ a{
     background-color: rgba(49, 48, 46, 0.425);
     background-image: url(slider-01.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .sect{
