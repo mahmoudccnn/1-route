@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.hot{
+    text-decoration: none;
+    color: hotpink;
+}
+a{
+    text-decoration-line: none;
+    -moz-text-decoration-line:none;
+}
+.na{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgba(78, 75, 75, 0.596);
+}
+.ba{
+ 
+    background-color: rgba(0, 0, 0, 0.219);
+}
+.photo{
+    height: 200%;
+    width: 100%;
+    background-color: rgba(49, 48, 46, 0.425);
+    background-image: url(slider-01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.sect{
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    padding-top: 300px;
+    width: 100vw;
+    background-color: rgba(21, 21, 22, 0.788);
+}
+.wh ,.navbar-toggler{
+    color: white;
+}
+.ho{
+color: hotpink;
+font-size: 40px;
+text-align: center;
+justify-content: center;
+}
+.btno{
+ height: 60px;
+ width: 140px;
+ color: white;
+ background-color: hotpink;
+ border-radius: 50px;
+ border: none;
+ -webkit-border-radius: 50px;
+ -moz-border-radius: 50px;
+ -ms-border-radius: 50px;
+ -o-border-radius: 50px;
+ transition:5s all  ;
+ webkit-transition:   5s all ;
+ -moz-transition:5s all;
+ -ms-transition:5s all;
+ -o-transition:5s all;
+ -webkit-transition:5s all;
+}
+
+.btno:hover{
+    color: hotpink;
+    background-color: white;
+
+}
+.sasa:hover{
+
+    
+}
+.to{
+    text-align: center;
+    margin: auto;
+    border-bottom: 20px solid black;
+}
+
+.feature{
+    text-align: center;
+    margin: auto;
+}
+.iii{
+    height: 100px;
+    width: 100px;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-border-radius:;
+}
+.feature:hover{
+    background-color: white;
+}
+
+.oi{
+    background-color: rgba(71, 62, 62, 0.486);
+}
+.red{
+    text-align: center;
+    margin: auto;
+    color: brown;
+    font-size: 45px;
+    margin: .150px;
+}
+.ce{
+    margin: auto;
+
+    text-align: center;
+
+}
+.uo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+}
+li{
+    list-style: none;
+    margin: 20px;
+
+}
+li:hover{
+    color: palevioletred;
+}
+ 
+.gallery{
+  display: flex;
+  flex-direction: row;
+  height: 200%;
+  text-align: center;
+  margin: auto;
+flex-wrap: wrap;
+}
+.goo{
+    text-align: center;
+    margin: auto;
+
+}
+.img{
+  
+
+
+}
+.img:hover{
+    background-color: gray;
+}
+body{
+
+    overflow-y: scroll;
+    overflow-x: hidden;}
+
+    .ok{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .sasa{
+        transition: 3s all;
+        -webkit-transition: 3s all;
+        -moz-transition: 3s all;
+        -ms-transition: 3s all;
+        -o-transition: 3s all;
+}
+    .sasa:hover{
+        -moz-transform: scale(1.2) rotate(30deg) translateX(5px) translateY(10px) skewX(10deg) skewY(.10deg);
+-webkit-transform: scale(1.2) rotate(30deg) translateX(5px) translateY(10px) skewX(10deg) skewY(.10deg);
+-o-transform: scale(1.2) rotate(30deg) translateX(5px) translateY(10px) skewX(10deg) skewY(.10deg);
+-ms-transform: scale(1.2) rotate(30deg) translateX(5px) translateY(10px) skewX(10deg) skewY(.10deg);
+transform: scale(1.2) rotate(30deg) translateX(5px) translateY(10px) skewX(10deg) skewY(.10deg);
+
+    }
+    .sa{
+        overflow: hidden;
+    }
+
+    
+    
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 60%;
+    width: 100%;
+}
+.part1{height: 350px;
+    width: 30%;
+}
+.part1:hover{
+    background-color: white;
+}
+.soc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.zozz{
+    background-color: coral;
+}
+.tet{
+    text-align: center;
+    justify-content: center;
+
+
+margin: auto;
+}
+
+.half{
+    height: 30px;
+    width: 35%;
+
+    border: 1px solid black;
+
+    padding-left: 10px;
+}
+
+.full{
+    padding-left: 10px;
+    height: 30px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:70%;
+     border: 1px solid  black;
+}
+.aut{
+    margin: auto;
+    text-align: center;
+}
+.big{
+width: 70%;
+border: 1px solid black;
+height: 300px;
+padding-left: 10px;
+}
+.hh{
+    margin: 60px;
+}
+.occ{
+    margin-top: 30px;
+    }
+
+
+
+    .fa-brands{
+        margin-right: 15px;
+        font-size: 30px;
+        color: black;
+    }
+    .fa-brands:hover{
+        color: hotpink;
+
+    }
+    .footer{
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+
+    h4{
+        margin-top: 20px;
+    }
+    .footer{
+        padding: 80px;
+        background-color: gray;
+    }
+    .icons{
+        margin-bottom: 20px;
+    }
+    .reds{
+        color: red;
+    }
