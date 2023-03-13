@@ -1,5 +1,5 @@
- 
-@media screen and (max-width:600) {
+
+@media  only screen and (max-width:600) {
     
     .photo{
         width: 100%;
@@ -8,7 +8,7 @@ overflow: hidden;
     }
 } 
  
-@media screen and (max-width:768) {
+@media  only screen and (max-width:768) {
     .photo{
         overflow: hidden
         ;
@@ -17,7 +17,7 @@ overflow: hidden;
     }
     
 }
-@media screen and (max-width:992) {
+@media  only screen and (max-width:992) {
     .photo{
         overflow: hidden
         ;
@@ -26,7 +26,7 @@ overflow: hidden;
     }
     
 }
-@media screen and (max-width:1200) {
+@media  only screen and (max-width:1200) {
     
     .photo{
         overflow: hidden;
@@ -230,4 +230,14 @@ transform: scale(1.2) rotate(30deg) translateX(5px) translateY(10px) skewX(10deg
         width: 100%;
         text-align: center;
         margin: auto;
+    }
+    
+html{
+    width: 100%;
+    overflow: hidden;
+}
+    body{
+        width: 100%;
+        background-color: rgb(22, 19, 15);
+        overflow: hidden;
     }
